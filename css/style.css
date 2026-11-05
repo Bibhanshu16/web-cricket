@@ -32,3 +32,7 @@ input{font:inherit;font-size:22px;font-weight:700;width:100%;margin:8px 0;paddin
 #tilt,#edit,#pad #fs{position:absolute;font-size:13px;padding:8px 12px;background:#2a9d8f;box-shadow:0 4px 0 #1b6e64}
 #tilt{right:8px;top:8px}#edit{left:8px;top:8px}#pad #fs{right:8px;top:54px}
 #start{position:absolute;top:50px;left:50%;transform:translateX(-50%);background:#06d6a0;box-shadow:0 6px 0 #04876a}
+#big.pop{animation:pop .5s ease-out}@keyframes pop{0%{transform:scale(.4);opacity:0}60%{transform:scale(1.15)}100%{transform:scale(1);opacity:1}}
+#score{border:2px solid #ffd16655;backdrop-filter:blur(4px);box-shadow:0 6px 0 #0005}
+#types{position:absolute;right:3vw;bottom:calc(10vh + 214px);display:flex;gap:8px}#types button{font-size:14px;padding:8px 12px;background:#15473f;box-shadow:0 3px 0 #0007}#types .sel{background:#ffd166;color:#000}
+#meter{position:absolute;right:6vw;bottom:calc(10vh + 186px);width:170px;height:18px;border-radius:9px;border:2px solid #fff;overflow:hidden;background:linear-gradient(90deg,#e63946 0 55%,#06d6a0 55% 90%,#e63946 90%)}#meter i{display:block;height:100%;width:0;background:#ffffff88;border-right:4px solid #fff}
