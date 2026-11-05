@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wemble Cricket – Screen</title><link rel="stylesheet" href="css/style.css">
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js"}}</script>
+<script src="https://cdn.jsdelivr.net/npm/peerjs@1.5.4/dist/peerjs.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script></head>
+<body><canvas id="c"></canvas>
+<div id="score" class="hide"></div><div id="sub" class="hide"></div><div id="big"></div>
+<div id="tools"><button id="mute" title="Sound (M)">🔇</button><button id="fs" title="Fullscreen (F)">⛶</button></div>
+<div id="lobby" class="panel"><h1>WEMBLE CRICKET</h1>
+<div class="row"><div id="qr"></div><div><p>Scan with your phone, or open</p><p id="url"></p><p style="margin-top:10px">and enter room code</p><div id="code">----</div></div></div>
+<ul id="roster"></ul><button id="snd">🔊 Turn sound on</button> <button id="startBtn">Start match</button><p id="hint">Creating room…</p><p id="extra"></p></div>
+<script type="module" src="js/screen.js"></script></body></html>
